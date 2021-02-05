@@ -1,72 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title style="font-family:Times New Roman;">Portfolio</title>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title style="font-family:Times New Roman;">Portfolio</title>
 </head>
 <!-- Including google fonts -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Redressed&family=Grand+Hotel&family=Sacramento&display=swap" rel="stylesheet">
 <style>
     /* setting default values of body*/
-    body{
-        margin: 0px;
-        padding: 0px;
-        background: url('img/Background.jpg');
-        background-size: cover;
-        background-attachment: fixed;
-    }
-    /* styliing left part of navigation bar */
+     body{
+         margin: 0px;
+         padding: 0px;
+         background: url('img/Background.jpg');
+         background-size: cover;
+         background-attachment: fixed;
+     }
+     /* styliing left part of navigation bar */
      .left{                        
-    display:inline-block;
-    position:absolute;
-    left:50px;
-    top:20px;
-    }
-    /* styliing center of navigation bar*/
-    .centre{
-    display:block;
-    width:33%;
-    margin:20px auto;
-    }
-   .right{
-       display:inline-block;
-       position:absolute;
-    right:34px;
-    top:20px;}
+         display:inline-block;
+         position:absolute;
+         left:50px;
+         top:20px;
+     }
+     /* styliing center of navigation bar*/
+     .centre{
+         display:block;
+         width:40%;
+         margin:20px auto;
+     }
+     .right{
+         display:inline-block;
+         position:absolute;
+         right:34px;
+         top:20px;
+     }
      .navigation{
-     display: inline-block;
-     width:max-content;
+         display: inline-block;
+         width:max-content;
      }
      .navigation li{
          display:inline-block;
-         font-size: 20px;
-         
+         font-size: 30px;     
      }
      .navigation li a{
-        color:black;
-        text-decoration: none;
-        padding: 34px 15px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         color:black;
+         text-decoration: none;
+         padding: 34px 15px;
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      }
-     
-    
      .left img{
-         width:80px;
+          width:80px;
      }
      .left div{
-      text-align: center;
-      color:cornsilk;
-      font-family: 'Berkshire Swash', cursive;
-      font-size:20px;
-      text-align: justify;
+         text-align: center;
+         color:cornsilk;
+         font-family: 'Lemonada', cursive;
+         font-size:20px;
+         text-align: justify;
      }
      /* styling buttons */
      .btn{
@@ -93,17 +87,19 @@
          margin:100px;
          text-align: center;
          font-size: 80px;
-         font-family:'Berkshire Swash', cursive; 
+         font-family:'Lemonada', cursive; 
+         color: black;
      }
      .picture{
-         height:550px;
+         height:530px;
          width:400px;
      }
      .project h1{
          float: right;
-         font-size: 45px;
-         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         font-size: 35px;
+         font-family: 'Lemonada', cursive;
          padding-right: 20px;
+         padding-bottom: 10px;
      }
      
      .intro li{
@@ -124,6 +120,9 @@
      .project-title a{
          font-size:30px;
      }
+     .project-title{
+         text-align: center;
+     }
      #interest{
          position:relative;
          border:2px solid white ;
@@ -131,7 +130,7 @@
          padding: 40px 10px;
          width:70%;
          height:700px;
-         background-color: aliceblue;
+         background-color: whitesmoke;
          box-shadow:2px 2px 20px;
          border-radius: 10px;
          font-family:'Redressed', cursive;
@@ -142,131 +141,126 @@
          font-size: 40px;
          padding: 20px 10px;
      }
-     .link_further{
-         width: 40%;
-     }
      #tictactoe{
-         border:2px solid white ;
-         margin:  40px 40px auto;
+         position: relative;
+         margin:  40px auto;
          padding:40px 10px;
          height:100px;
-         background-color: aliceblue;
+         width: 40%;
+         background-color:whitesmoke;
          box-shadow:2px 2px 20px;
          border-radius: 10px;
          font-family:'Redressed', cursive;
      }
-
      #gallery{
          position: relative;
-         border:2px solid white ;
-         margin: 40px 40px auto;
+         margin: 40px auto;
          padding:40px 10px;
          height:100px;
-         background-color: aliceblue;
+         width: 40%;
+         background-color:whitesmoke;
          box-shadow:2px 2px 20px;
          border-radius: 10px;
          font-family:'Redressed', cursive;
      }
-      #photo{
-          text-align:center;
-          font-size: 40px;;
-      }
+     #photo{
+         text-align:center;
+         font-size: 40px;;
+     }
      .Certifications img{
-      width:400px;
-      height:250px;
-      padding: 20px 10px;
-      text-decoration: none;
-      
+         width:400px;
+         height:250px;
+         padding: 20px 10px;
+         text-decoration: none;
      }
      .Certifications
      {
          padding-left:100px;
      }
      #mine{
-        font-family:'Berkshire Swash', cursive;
+        font-family:'Lemonada', cursive;
         font-size:60px;
         text-align: center;
         padding-bottom:50px;
         padding-top: 50px;
-        color:antiquewhite;
+        color: rgb(28, 30, 54);
      }
      .footer{
-       
          border:2px solid white ;
-         margin-top:  40px;
+         margin: auto;
          /* padding:40px 10px; */
          width:100%;
-         height:300px;
+         height:230px;
          background-color: aliceblue;
          box-shadow:2px 2px 20px; 
      }
      .foot{
-float:left;
-height: auto;
-width:33% ;
-position:initial;
-padding-top: 50px;
-}
-.form1{
-    position:left;
-width:200px;
-display: flex;
-}
-.para{
-    font-family: 'Berkshire Swash', cursive;
-     word-spacing: 10px;
-     width:300px;
-     margin-left: 30px;
-}
-#forms{
-    padding-top: 50px;
-}
-.foot img{
-    width:25px;
-    height:25px;
-    padding-left:20px;
-    padding-right:20px;  
-}
-#follow{
-    position: absolute;
-    display: inline-block;
-}
-#follow p{
-font-weight:bold;
-font-size: 30px;
-
-}
-#button{
-text-align: center;
-background-color: gainsboro;
-}
-.navigation li a:hover{
-    text-decoration: underline;
-   color:antiquewhite;
-}
-#mail a{
-    text-decoration: none;
-}
-#facebook:hover{
-width:30px;
-height:30px;
-}
-#linkedin:hover{
-width:30px;
-height:30px;
-}
-#insta:hover{
-width:30px;
-height:30px;
-}
-
+         float:left;
+         height: auto;
+         width:33% ;
+         position:initial;
+         padding-top: 30px;
+     }
+     .form1{
+         position:left;
+         width:200px;
+         display: flex;
+         margin-bottom: 6px;
+         padding: 4px;
+     }
+     .para{
+         font-family: 'Lemonada', cursive;
+         word-spacing: 10px;
+         width:300px;
+         margin-left: 30px;
+     }
+     #forms{
+         padding-top: 0px;
+     }
+     .foot img{
+         width:50px;
+         height:50px;
+         padding-left:20px;
+         padding-right:20px;  
+     }
+     #follow{
+         position: absolute;
+         display: inline-block;
+     }
+     #follow p{
+         font-weight:bold;
+         font-size: 30px;   
+     }
+     #button{
+         text-align: center;
+         background-color: gainsboro;
+     }
+     .navigation li a:hover{
+         text-decoration: underline;
+         color:antiquewhite;
+     }
+     #mail a{
+         text-decoration: none;
+     }
+     #facebook:hover{
+         width:70px;
+         height:70px;
+     }
+     #linkedin:hover{
+         width:70px;
+         height:70px;
+     }
+     #insta:hover{
+         width:70px;
+         height:70px;
+     }
 </style> 
 <body>
     <!-- Header -->
     <header class="header">
         <div class="left">
-        <img src="img/logo.png" alt="logo">
-        <div>DEVYANSHU</div>
+            <img src="img/logo.png" alt="logo">
+            <div>DEVYANSHU</div>
         </div>
         <!-- navigation bar -->
         <div class="centre">
@@ -286,35 +280,34 @@ height:30px;
     <!-- Header ends -->
     <div id=home>
         <!-- My small introduction and about block -->
-        <p id="welcome">Welcoming Enterprenuer leader of tomorrow</p>
+        <p id="welcome">Welcoming Enterprenuer Leader of tomorrow</p>
         <div class="project">
             <ul class="intro">
-            <li><img src="img/DEVYANSHU.jpg" class="picture"></li>     
-               <li class="picture" id="about">
+                <li><img src="img/DEVYANSHU.jpg" class="picture"></li>     
+                <li class="picture" id="about">
                    <p id="hello">Hey Buddies ,</p>
-                   <p id="me">I,Devyanshu Singhal, 1st year student persuing CSE, IIIT Bhagalpur welcomes you to my webpage. My prime interest includes Robotics, football, Mathematics and voluntarily social services.Currently, I am developing my skill in various domains like web devlopment, robotics, animation, coding languages, AI and ML etc.. I hope you enjoy my website.
-                   </p>
-                </li></ul> 
-               <h1>DEVYANSHU SINGHAL</h1>
+                   <p id="me">I,Devyanshu Singhal, 1st year student persuing CSE, IIIT Bhagalpur welcomes you to my webpage. My prime interest includes Robotics, football, Mathematics and voluntarily social services.Currently, I am developing my skill in various domains like web devlopment, robotics, animation, coding languages, AI and ML etc.. I hope you enjoy my website.</p>
+                </li>
+            </ul> 
+            <h1>DEVYANSHU SINGHAL</h1>
         </div>
     </div>
     <!-- about block ends -->
 
     <!-- interests block -->
-   <div id="interest">
-    <p>
-        I am a recommended candidate for NDA (National Defence Academy) due to my personality and skills, but my passion of innovation kept me focused on my path.
-        To take a step forward on my path, I joined IIIT Bhagalpur for my graduation in CSE. Although Due to pandemic we, IIIT family, 
-        are unable to meet and interact physically but due to the growing world and technology we are able to connect well on Digital platforms. 
-        Having interaction with new people everyday made me realize that right now I am just a spoonful of water in a sea. 
-        This institute helped me clear my basics and introduced me in world of computers, coding and Artificial intelligence. 
-        It has provided me huge amount of resources and projects to help me through my journey.<br>
-        <div class=project-title><a href="https://github.com/Devyanshu0911/portfolio">My Github project link</a></div>
-        
-    </p>
-   </div>
-   <!-- interest block ends -->
-<div class="link_further">
+    <div id="interest">
+        <p>
+            I am a recommended candidate for NDA (National Defence Academy) due to my personality and skills, but my passion of innovation kept me focused on my path.
+            To take a step forward on my path, I joined IIIT Bhagalpur for my graduation in CSE. Although Due to pandemic we, IIIT family, 
+            are unable to meet and interact physically but due to the growing world and technology we are able to connect well on Digital platforms. 
+            Having interaction with new people everyday made me realize that right now I am just a spoonful of water in a sea. 
+            This institute helped me clear my basics and introduced me in world of computers, coding and Artificial intelligence. 
+            It has provided me huge amount of resources and projects to help me through my journey.<br>
+            <div class=project-title><a href="https://github.com/Devyanshu0911/portfolio">My Github project link</a></div>
+        </p>
+    </div>
+    <!-- interests -->
+    <!-- tictac and image gallery-->
     <div id="tictactoe">
         <h1 id="photo">Tic tac toe</h1>
         <div class=project-title><a href="#">Game link</a></div>
@@ -323,46 +316,40 @@ height:30px;
         <h1 id="photo">Image gallery</h1>
         <div class=project-title><a href="#">Image Gallery link</a></div>
     </div>
-</div>
-   <!-- my certifications -->
-<div class="Certifications" id="certify">
-<div id="mine">My Certifications</div>
-      <img src="img/command_line.png" >
-    <img src="img/Git_course.png">
-    <img src="img/linear_algebra.jpg"  >
-</div>
-
-<!-- footer  -->
-
-<div class="footer" id="foote" >
-<div class="foot">
-    <h1 style="padding-left: 60px;">Beliefs</h1>
-<p class="para">Smile whenever you can as life is very short. Enjoy what you do and do what you enjoy. </p>
-</div>
-<div class="foot" id="forms">
-    <h1 style=>Newsletter</h1>
-<form action="nothing.php">
-    <input type="text" placeholder="Enter yor name" class="form1"required>
-    <input type="text" placeholder="Enter your present working pllace" class="form1" required> 
-    <input type="email" placeholder="Enter your email" class="form1" required>
-    <input type="submit"  id="button">
-</form>
-
-</div>
-<!-- Links for following me -->
-<div class="foot" id="follow">
-    <p> Follow me</p>
-<a href="https://www.linkedin.com/in/devyanshu-singhal-02568a13a/">
-    <img src="img\linkedin.png" id="linkedin">
-</a>
-<a href="https://www.facebook.com/devyanshu.singhal.7">
-    <img src="img\facebook.png" id="facebook">
-</a>
-<a href="https://www.instagram.com/devyanshu_singhal/">
-<img src="img\insta.png" id="insta">
-</a>
-
-</div>
-</div>
+    <!-- my certifications -->
+    <div class="Certifications" id="certify">
+        <div id="mine">My Certifications</div>
+        <img src="img/command_line.png" >
+        <img src="img/Git_course.png">
+        <img src="img/linear_algebra.jpg"  >
+    </div>
+    <!-- footer  -->
+    <div class="footer" id="foote" >
+        <div class="foot">
+            <h1 style="padding-left: 60px;">Beliefs</h1>
+            <p class="para">Smile whenever you can as life is very short. Enjoy what you do and do what you enjoy. </p>
+        </div>
+        <div class="foot" id="forms">
+            <h1 style=>Newsletter</h1>
+            <form action="nothing.php">
+            <input type="text" placeholder="Enter yor name" class="form1"required>
+            <input type="text" placeholder="Enter your present working pllace" class="form1" required> 
+            <input type="email" placeholder="Enter your email" class="form1" required>
+            <input type="submit"  id="button">
+            </form>
+        </div>
+        <div class="foot" id="follow">
+            <p> Follow me</p>
+            <a href="https://www.linkedin.com/in/devyanshu-singhal-02568a13a/">
+                <img src="img\linkedin.png" id="linkedin">
+            </a>
+            <a href="https://www.facebook.com/devyanshu.singhal.7">
+                <img src="img\facebook.png" id="facebook">
+            </a>
+            <a href="https://www.instagram.com/devyanshu_singhal/">
+                <img src="img\insta.png" id="insta">
+            </a>
+        </div>
+    </div>
 </body>
 </html>
