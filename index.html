@@ -64,7 +64,7 @@
      .left div{
       text-align: center;
       color:cornsilk;
-      font-family: 'Berkshire Swash';
+      font-family: 'Berkshire Swash', cursive;
       font-size:20px;
       text-align: justify;
      }
@@ -78,28 +78,26 @@
          border-radius: 30px;
          font-size: 20px;
          cursor: pointer;
-         color: Black;
+         color: black;
      }
      .project{
          border:2px solid white ;
          margin:  40px auto;
          padding:40px 10px;
-         width:60%;
+         width:80%;
          height:600px;
          background-color: aliceblue;
          box-shadow:2px 2px 20px;
-         border-radius: 10px;
      }
      #welcome{
          margin:100px;
-        
          text-align: center;
          font-size: 80px;
          font-family:'Berkshire Swash', cursive; 
      }
      .picture{
-         height:483px;
-         width:372px;
+         height:550px;
+         width:400px;
      }
      .project h1{
          float: right;
@@ -109,28 +107,30 @@
      }
      
      .intro li{
-         text-decoration: none;
          float:left;
      }
      #about{
-    padding-left:30px;
+         padding-left:30px;
      }
      #me{
-        font-family: 'Sacramento', cursive;
-        font-size: 28px;;
+         font-family:cursive;
+         font-size: 33px;
+         width: 690px;
      }
      #hello{
-        font-family: 'Aladin', cursive;
-        font-size: 32px;
+         font-family: 'Aladin', cursive;
+         font-size: 45px;
      }
-    
+     .project-title a{
+         font-size:30px;
+     }
      #interest{
          position:relative;
          border:2px solid white ;
          margin:  40px auto;
          padding: 40px 10px;
-         width:60%;
-         height:800px;
+         width:70%;
+         height:700px;
          background-color: aliceblue;
          box-shadow:2px 2px 20px;
          border-radius: 10px;
@@ -138,22 +138,18 @@
          word-spacing:6px ;
          
      }
-     .project-title a{
-         font-size:30px;
-         padding:20px 40px;
-     }
      #interest p{
-      font-size: 40px;
-      padding: 20px 10px;
+         font-size: 40px;
+         padding: 20px 10px;
      }
-    
-     #ttt{
-         position:relative;
-        border:2px solid white ;
-         margin:  40px auto;
+     .link_further{
+         width: 40%;
+     }
+     #tictactoe{
+         border:2px solid white ;
+         margin:  40px 40px auto;
          padding:40px 10px;
-         width:60%;
-         height:120px;
+         height:100px;
          background-color: aliceblue;
          box-shadow:2px 2px 20px;
          border-radius: 10px;
@@ -161,12 +157,11 @@
      }
 
      #gallery{
-         position:relative;
-        border:2px solid white ;
-         margin:  40px auto;
+         position: relative;
+         border:2px solid white ;
+         margin: 40px 40px auto;
          padding:40px 10px;
-         width:60%;
-         height:120px;
+         height:100px;
          background-color: aliceblue;
          box-shadow:2px 2px 20px;
          border-radius: 10px;
@@ -293,7 +288,6 @@ height:30px;
         <!-- My small introduction and about block -->
         <p id="welcome">Welcoming Enterprenuer leader of tomorrow</p>
         <div class="project">
-            <div class="project-title"><a href=""></a></div>
             <ul class="intro">
             <li><img src="img/DEVYANSHU.jpg" class="picture"></li>     
                <li class="picture" id="about">
@@ -320,16 +314,16 @@ height:30px;
     </p>
    </div>
    <!-- interest block ends -->
-<div id="ttt">
-    <h1 id="photo">Tic tac toe</h1>
-    <div class=project-title><a href="#">Game link</a></div>
+<div class="link_further">
+    <div id="tictactoe">
+        <h1 id="photo">Tic tac toe</h1>
+        <div class=project-title><a href="#">Game link</a></div>
+    </div>
+    <div id="gallery">
+        <h1 id="photo">Image gallery</h1>
+        <div class=project-title><a href="#">Image Gallery link</a></div>
+    </div>
 </div>
-
-<div id="gallery">
-    <h1 id="photo">Image gallery</h1>
-    <div class=project-title><a href="#">Image Gallery link</a></div>
-</div>
-
    <!-- my certifications -->
 <div class="Certifications" id="certify">
 <div id="mine">My Certifications</div>
