@@ -79,7 +79,7 @@
          margin:  40px auto;
          padding:40px 10px;
          width:80%;
-         height:600px;
+         height:650px;
          background-color: aliceblue;
          box-shadow:2px 2px 20px;
      }
@@ -91,7 +91,7 @@
          color: black;
      }
      .picture{
-         height:530px;
+         height:620px;
          width:400px;
      }
      .project h1{
@@ -99,7 +99,7 @@
          font-size: 35px;
          font-family: 'Lemonada', cursive;
          padding-right: 20px;
-         padding-bottom: 10px;
+         padding-bottom: 60px;
      }
      
      .intro li{
@@ -117,6 +117,10 @@
          font-family: 'Aladin', cursive;
          font-size: 45px;
      }
+     /* #sign{
+         font-size: 30px;
+         padding-bottom: 60px;
+     } */
      .project-title a{
          font-size:30px;
      }
@@ -129,7 +133,7 @@
          margin:  40px auto;
          padding: 40px 10px;
          width:70%;
-         height:700px;
+         height:750px;
          background-color: whitesmoke;
          box-shadow:2px 2px 20px;
          border-radius: 10px;
@@ -141,7 +145,7 @@
          font-size: 40px;
          padding: 20px 10px;
      }
-     #tictactoe{
+     /* #tictactoe{
          position: relative;
          margin:  40px auto;
          padding:40px 10px;
@@ -151,7 +155,7 @@
          box-shadow:2px 2px 20px;
          border-radius: 10px;
          font-family:'Redressed', cursive;
-     }
+     } */
      #gallery{
          position: relative;
          margin: 40px auto;
@@ -169,7 +173,7 @@
      }
      .Certifications img{
          width:400px;
-         height:250px;
+         height:300px;
          padding: 20px 10px;
          text-decoration: none;
      }
@@ -210,7 +214,7 @@
      }
      .para{
          font-family: 'Aladin', cursive;
-         word-spacing: 10px;
+         word-spacing: 7px;
          width:300px;
          text-align: center;
          margin-left: 30px;
@@ -260,16 +264,18 @@
     <!-- Header -->
     <header class="header">
         <div class="left">
-            <img src="img/logo.png" alt="logo">
+            <a href="https://drive.google.com/file/d/16rb13umBGsM1EJkKexiU5PhH0SXcnD7s/view?usp=sharing" target="_blank">
+                <img src="img/logo.png" alt="logo">
+            </a>
             <div>DEVYANSHU</div>
         </div>
         <!-- navigation bar -->
         <div class="centre">
             <ul class="navigation">
-                <li><a href="#home" >About</a></li>
+                <li><a href="#about" >About</a></li>
                 <li><a href="#interest">My Interests</a></li>
                 <li><a href="#certify">Certifications</a></li>
-                <li><a href="#foote">Follow</a></li>
+                <li><a href="#follow">Follow</a></li>
             </ul>
         </div>
         <!-- email button -->
@@ -285,12 +291,12 @@
         <div class="project">
             <ul class="intro">
                 <li><img src="img/DEVYANSHU.jpg" class="picture"></li>     
-                <li class="picture" id="about">
+                <li id="about">
                    <p id="hello">Hey Buddies ,</p>
-                   <p id="me">I,Devyanshu Singhal, 1st year student persuing CSE, IIIT Bhagalpur welcomes you to my webpage. My prime interest includes Robotics, football, Mathematics and voluntarily social services.Currently, I am developing my skill in various domains like web devlopment, robotics, animation, coding languages, AI and ML etc.. I hope you enjoy my website.</p>
+                   <p id="me">I, Devyanshu Singhal, 2nd year student persuing CSE, IIIT Bhagalpur welcomes you to my webpage. My prime interest includes Robotics, AI/ML, Programming, football, Mathematics and voluntarily social services. Currently, I am developing my skill in various domains like web devlopment, robotics, animation, coding languages, AI and ML etc.. I hope you enjoy my website.</p>
                 </li>
             </ul> 
-            <h1>DEVYANSHU SINGHAL</h1>
+            <h1 id="sign">DEVYANSHU SINGHAL</h1>
         </div>
     </div>
     <!-- about block ends -->
@@ -303,26 +309,30 @@
             are unable to meet and interact physically but due to the growing world and technology we are able to connect well on Digital platforms. 
             Having interaction with new people everyday made me realize that right now I am just a spoonful of water in a sea. 
             This institute helped me clear my basics and introduced me in world of computers, coding and Artificial intelligence. 
-            It has provided me huge amount of resources and projects to help me through my journey.<br>
+            It has provided me huge amount of resources and projects to help me through my journey. Today I am coordinator of Robotics Club and Animation Club.
+            Also, I am proudly part of AI/ML club, Web Development Club, Dramatics Club, Core team IIITBH and Graphic Design Team as well.<br>
             <div class=project-title><a href="https://github.com/Devyanshu0911/portfolio">My Github project link</a></div>
         </p>
     </div>
     <!-- interests -->
     <!-- tictac and image gallery-->
-    <div id="tictactoe">
+    <!-- <div id="tictactoe">
         <h1 id="photo">Tic tac toe</h1>
         <div class=project-title><a href="#">Game link</a></div>
-    </div>
+    </div> -->
     <div id="gallery">
-        <h1 id="photo">Image gallery</h1>
-        <div class=project-title><a href="#">Image Gallery link</a></div>
+        <h1 id="photo">Certificate and Image gallery</h1>
+        <div class=project-title><a href="https://drive.google.com/drive/folders/1-uNj48BkCXsE5SkOVJvNR4pRbn-QVT-1?usp=sharing" target="_blank">Image Gallery link</a></div>
     </div>
     <!-- my certifications -->
     <div class="Certifications" id="certify">
         <div id="mine">My Certifications</div>
-        <img src="img/command_line.png" >
-        <img src="img/Git_course.png">
-        <img src="img/linear_algebra.jpg"  >
+        <img src="img/c_c++.png" >
+        <img src="img/bit_by_bit.png">
+        <img src="img/Machine_Learning.png">
+        <img src="img/Python.png" >
+        <img src="img/code_rush_algo university.jpg">
+        <img src="img/saviour.png">
     </div>
     <!-- footer  -->
     <div class="footer" id="foot" >
@@ -332,11 +342,11 @@
         </div>
         <div class="foot" id="forms">
             <h1 style=>Newsletter</h1>
-            <form action="nothing.php">
-            <input type="text" placeholder="Enter yor name" class="form1"required>
-            <input type="text" placeholder="Enter your present working pllace" class="form1" required> 
+            <form method="post" action="mailto:devgdg11.com?subject=Obtain Newsletter" enctype="text/plain">
+            <input type="text" name="Contact_Name" placeholder="Enter yor name" class="form1" required>
+            <input type="text" name="Working Place" placeholder="Enter your present working place" class="form1" required> 
             <input type="email" placeholder="Enter your email" class="form1" required>
-            <input type="submit"  id="button">
+            <input type="submit" id="button" value="submit">
             </form>
         </div>
         <div class="foot" id="follow">
